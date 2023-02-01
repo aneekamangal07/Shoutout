@@ -1,0 +1,72 @@
+.register{
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+
+.bgImgWrapper img{
+    object-fit: cover;
+}
+.contentWrapper{
+    width: 20%;
+    position: absolute;
+    top: 200px;
+    left: 40%;
+}
+.registerTitle{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFEBD2;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.registerForm label{
+    margin: 10px 0;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFEBD2;
+}
+.registerForm input{
+    padding: 8px;
+    background-color: #AF4F41;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFEBD2;
+}
+::placeholder{
+    font-size: 10px;
+    color: lightgrey;
+    opacity: 0.6;
+}
+.registerButton{
+    width: 100px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #273248;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    color: #FFEBD2;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(98, 98, 98);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}

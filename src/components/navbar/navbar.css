@@ -1,0 +1,47 @@
+
+.top{
+    height: 50px;
+    position: sticky;
+    /* top: 0; */
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    z-index: 1;
+}
+
+.topLeft{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topRight{
+    flex: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topList{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.topListItem{
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    color: white;
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    cursor: pointer;
+    padding: 20px;
+}

@@ -1,0 +1,143 @@
+.homeBg{
+    position: absolute;
+    top: 0;
+}
+.bgImgWrapper img{
+    object-fit: cover;
+}
+.introBox{
+    position: absolute;
+    top: 150px;
+    height: 500px;
+    align-items: center;
+    background-color: #273248;
+    margin: 0 350px;
+    border-radius: 10px;
+}
+.introBoxContent{
+    position: relative;
+    top: 50px;
+    
+}
+.introBoxHead{
+    text-align: center;
+    color: #AF4F41;
+    font-size: 60px;
+    font-family: 'Mansalva', cursive;
+}
+.introBoxSubHead{
+    margin: 0 40px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 100;
+}
+.introBoxSubHead2{
+    margin: 0 40px;
+    color: #FFEBD2;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+a {
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+    color: inherit;
+}
+  
+.introBtn {
+    position: relative;
+    margin: 0 40px;
+    padding: 7px 22px;
+    transition: all 0.2s ease;
+    font-family: 'Mansalva', cursive;
+    color: #FFEBD2;
+    font-size: 25px;
+}
+.introBtn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #AF4F41;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+}
+.introBtn span {
+    position: relative;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.introBtn svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+.introBtn:hover:before {
+    width: 100%;
+    background: #FC7643;
+}
+.introBtn:hover svg {
+    transform: translateX(0);
+}
+.introBtn:active {
+    transform: scale(0.96);
+}
+.sect{
+    height: 50vh;
+    /* margin: 50px; */
+    display: flex;
+}
+.sectTwo{
+    position: relative;
+    top: 750px;
+    background-color:#AF4F41;
+}
+.sectThree{
+    position: relative;
+    top: 750px;
+    background-color:#FC7643;
+}
+.sectFour{
+    position: relative;
+    top: 750px;
+    background-color:#FFA364;
+}
+.sectFive{
+    position: relative;
+    top: 750px;
+    background-color:#FFEBD2;
+}
+.content{
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px;
+    flex: 4;
+}
+.sectImage{
+    margin: 50px;
+    flex: 3;
+}
+.content h1{
+    font-size: 30px;
+    text-align: center;
+}
+.content h2{
+    font-size: 20px;
+    text-align: justify;
+}

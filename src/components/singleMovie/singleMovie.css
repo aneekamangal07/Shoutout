@@ -1,0 +1,65 @@
+.singleMovie{
+    height: 100vh;
+    background-color: bisque;
+    position: absolute;
+    /* width: 80%; */
+}
+.singleMovieImgWrapper{
+    height: 60vh;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.singleMovieImgWrapper img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 60vh;
+    object-fit: cover;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+.content h1{
+    font-size: 85px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.buttons{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    
+    width: 60%;
+    margin: 5px;
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #273248;
+    color: #FFEBD2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.singleMovieContentWrapper{
+    display: flex;
+}
+.content{
+    width: 50%;
+}
+.singleMovieDesc{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.singleMovieInfo{
+    width: 20%;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 100px;
+}
