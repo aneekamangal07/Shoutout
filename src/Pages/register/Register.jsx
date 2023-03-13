@@ -1,12 +1,12 @@
 import React from "react";
 import "../register/register.css";
 import bgmovote from "../../assets/bg2.png";
-import Topbar1 from "../../components/topbar/Topbar";
+import Navbar from "../../components/navbar/Navbar";
 
 export default function Register() {
   return (
     <>
-      <Topbar1 />
+      <Navbar />
       <div className="register">
         <div className="bgImgWrapper">
           <img src={bgmovote} alt="bg" height="800vh" width="100%" />

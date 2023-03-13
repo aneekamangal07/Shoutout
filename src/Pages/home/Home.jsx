@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import "./Home.css";
-import bgmovote from "../../assets/bg2.png"
+import bgmovote from "../../assets/bg2.png";
+import axios from "axios";
 function Home() {
+  
   return (
     <>
-    <Navbar/>
-     <div className="home">
+      <Navbar />
+      <div className="home">
         <div className="homeBg">
           <div className="bgImgWrapper">
             <img src={bgmovote} alt="bg" height="800vh" width="100%" />
@@ -29,9 +31,9 @@ function Home() {
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </>
-  )
+  );
 }
 
 export default Home;

@@ -1,5 +1,5 @@
 import React from "react";
-import Topbar1 from "../../components/topbar/Topbar";
+import Navbar from "../../components/navbar/Navbar";
 import "./login.css";
 // import { Link } from "react-router-dom";
 import bgmovote from "../../assets/bg2.png";
@@ -7,7 +7,7 @@ import bgmovote from "../../assets/bg2.png";
 export default function Login() {
   return (
     <>
-      <Topbar1 />
+      <Navbar />
       <div className="login">
         <div className="BgImgWrapper">
           <img src={bgmovote} alt="bg" height="800vh" width="100%" />

@@ -1,10 +1,14 @@
-.singleMovie{
+/* .singleMovie{
     height: 100vh;
-    background-color: bisque;
-    position: absolute;
-    /* width: 80%; */
+    background-color: black;
+    position: relative;
 }
-.singleMovieImgWrapper{
+.singleMovieCard{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+} */
+/* .singleMovieImgWrapper{
     height: 60vh;
     padding: 20px;
     padding-bottom: 0;
@@ -16,7 +20,6 @@
     width: 50%;
     height: 60vh;
     object-fit: cover;
-    /* border: 1px solid black; */
     border-radius: 10px;
 }
 .content h1{
@@ -62,4 +65,4 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     top: 100px;
-}
+} */

@@ -1,34 +1,33 @@
-.trending{
-    height: 400px;
+.movies{
+    background-color: black;
+}
+.singleMovieCard{
+    height: 500px;
     margin: 25px;
+    top: 0;
+    left: 18%;
+}
+.wrapper{
+    background-color: black;
+}
+.genre{
+    margin: 25px;
+    background-color: black;
 }
 .title{
+    position: relative;
+    top: 70vh;
     font-size: 35px;
     font-family: 'Mansalva', cursive;
-    color: #273248;
+    color: #FFEBD2;
 }
 .movieContainersList{
-    display: flex;
+    position: relative;
+    top: 70vh;
+    /* background-color: black; */
+
 }
 a{
     cursor: pointer;
     padding-right: 5px;
-}
-.container img{
-    height: 250px;
-    width: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.romance{
-    height: 400px;
-    margin: 25px;
-}
-.action{
-    height: 400px;
-    margin: 25px;
-}
-.animation{
-    height: 400px;
-    margin: 25px;
 }
